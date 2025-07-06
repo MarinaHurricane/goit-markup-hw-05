@@ -621,7 +621,7 @@ color: #2E2F42;
     width: 100%;
     height: 40px;
     padding: 11px 11px 11px 38px;
-    outline: none;
+    outline: transparent;
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -643,7 +643,7 @@ color: #2E2F42;
     padding-left: 38px;
 }
 
-.form-label .form-input-icon {
+.form-input-area .form-input-icon {
     position: absolute;
     /* width: 12px;
     height: 12px; */
