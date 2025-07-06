@@ -423,7 +423,7 @@ color: #FFFFFF;
 
 .footer-form {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     align-items: center;
 }
 
@@ -442,13 +442,20 @@ color: #FFFFFF;
     border: 1px solid white;
     border-radius: 4px;
     outline: none;
+    width: 264px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
 }
 
 .footer-input::placeholder {
 font-size: 12px;
 line-height: 2;
 letter-spacing: 0.04em;
-color: white;
+color: #FFFFFF;
 }
 
 /* .footer-btn {
@@ -465,14 +472,18 @@ color: white;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
+    min-width: 165px;
     cursor: pointer;
     display: flex;
-    gap: 16px;
     justify-content: center;
     align-items: center;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-icon {
+    margin-left: 16px;
 }
 
 .footer-btn:hover,
