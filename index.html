@@ -343,7 +343,7 @@
     </div>
 
    <div class="footer-section">
-    <p class="footer-paragraph">Subscribe</p>
+    <p class="footer-form-paragraph">Subscribe</p>
     <form class="footer-form">
        
         <label class="footer-label">
@@ -373,58 +373,77 @@
     <p class="module-paragraph">Leave your contacts and we will call you back</p>
 
          <form class="form" name="module-form" autocomplete="off">
-                
-                <label class="form-label">
+            <div class="form-section">
+                <label class="form-label" for="user-name">
                     Name
+                    <div class="form-input-area">
                 <input
                 class="form-input" 
                 type="text" 
                 name="name"
+                id="user-name"
                 placeholder=""
                 />
 
-                <svg class="form-input-icon" width="12" height="12" >
-                    <use href="./images/icons.svg#nameicon"></use>
+                <svg class="form-input-icon" width="18" height="24" >
+                    <use href="./images/icons.svg#zzname"></use>
                 </svg>
+            </div>
                 </label>
+            </div>
 
-               <label class="form-label">
+                <div class="form-section">
+               <label class="form-label" for="user-phone">
                 Phone
+             <div class="form-input-area">
               <input
               class="form-input" 
               type="tel" 
               name="phone"
+              id="user-phone"
               placeholder=""
               />
+           
 
-              <svg class="form-input-icon" width="12" height="12">
-                <use href="./images/icons.svg#phone"></use>
+              <svg class="form-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#zphone"></use>
             </svg>
+        </div>
               </label>
+            </div>
 
-            <label class="form-label">
+              <div class="form-section">
+            <label class="form-label" for="user-email">
                 Email
+                <div class="form-input-area">
             <input
             class="form-input" 
             type="email" 
             name="email"
+            id="user-email"
             placeholder=""
             />
 
-            <svg class="form-input-icon" width="15" height="12">
-                <use href="./images/icons.svg#email"></use>
+            <svg class="form-input-icon" width="18" height="24">
+                <use href="./images/icons.svg#zemail"></use>
             </svg>
+        </div>
             </label>
-
-            <label class="form-label">
+        </div>
+        
+        <div class="form-section">
+            <label class="form-label" for="user-comment">
                 Comment
                 <textarea
                 class="comment-input"
                 name="comment"
                 placeholder="Text input"
                 rows="7"
+                id="user-comment"
                 ></textarea>
                 </label>
+            </div>
+
             <div class="terms-and-conditions">
                <input class="checkbox" type="checkbox" name="checkbox">
                <label class="form-label privacy-label">I accept the terms and conditions of the <span class="privacy-span"><a class="privacy-link">Privacy Policy</a></span></label>
