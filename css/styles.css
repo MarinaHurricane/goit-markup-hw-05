@@ -672,7 +672,7 @@ form-label:last-child {
     gap: 8px;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 24px;
+    margin-bottom: 16px;
 }
 
 .privacy-link {
