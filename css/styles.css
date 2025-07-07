@@ -423,15 +423,6 @@ color: #FFFFFF;
     align-items: center;
 }
 
-/* .footer-label {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: white;
-    
-} */
-
 .footer-input {
     padding: 8px 16px;
     background-color: transparent;
@@ -453,10 +444,6 @@ line-height: 2;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 }
-
-/* .footer-btn {
-    display: flex;
-} */
 
 .footer-btn {
     align-self: flex-end;
@@ -535,14 +522,12 @@ letter-spacing: 0.02em;
 text-align: center;
 margin-bottom: 16px;
 color: #2E2F42;
-/* margin-top: 72px; */
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    /* position: relative; */
 }
 
 .close-btn {
@@ -550,7 +535,6 @@ color: #2E2F42;
     top: 24px;
     right: 24px;
     border-radius: 50%;
-    /* padding: 8px; */
     background-color: #E7E9FC;
     stroke: rgba(0, 0, 0, 0.1);
     width: 24px;
@@ -558,7 +542,6 @@ color: #2E2F42;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* border: 1px solid #E7E9FC; */
     border:  1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -579,6 +562,10 @@ color: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
+.user-icon {
+    width: 18px;
+    height: 24px;
+}
 .close-btn:hover .close-icon,
 .close-btn:focus .close-icon {
     fill: #ffffff;
@@ -594,7 +581,6 @@ color: #2E2F42;
     flex-direction: column;
     gap: 4px;
     width: 360px;
-    /* height: 58px; */
     margin: 0 auto;
     font-weight: 400;
     font-size: 12px; 
@@ -611,11 +597,9 @@ color: #2E2F42;
 
 .form-label textarea::placeholder {
     color: rgba(46, 47, 66, 0.4);
-    /* padding: 8px 16px; */
 }
 
 .form-input {
-    /* border: 1px solid #2E2F42; */
     border-radius: 4px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     width: 100%;
@@ -645,34 +629,14 @@ color: #2E2F42;
 
 .form-input-area .form-input-icon {
     position: absolute;
-    /* width: 12px;
-    height: 12px; */
     left: 16px;
     top: 50%;
     transform: translateY(-50%);
-    /* fill: #2E2F42; */
+    fill: #2E2F42;
     color: #2E2F42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
-
-/* .form-input:hover .form-input-icon,
-.form-input:focus .form-input-icon,
-.form-input-:focus-within .form-input-icon {
-    fill: #4D5AE5;
-    stroke: #4D5AE5;
-    color: #4D5AE5;
-} */
-
-/* .form-input:hover .form-input-icon 
-.form-input:focus .form-input-icon 
-.form-input:focus-within .form-input-icon {
-    color: #4D5AE5;
-} */
-
-/* .form-input-icon:hover {
-    color: #4D5AE5;
-} */
 
 .form-input:hover + .form-input-icon,
 .form-input:focus + .form-input-icon {
@@ -711,14 +675,12 @@ form-label:last-child {
 .terms-and-conditions {
     display: flex;
     gap: 8px;
-    /* padding: 0 24px; */
     align-items: center;
     justify-content: flex-start;
     margin-bottom: 24px;
 }
 
 .privacy-link {
-    /* display: inline-block; */
     text-decoration: underline;
     color: #4D5AE5;
 }
@@ -733,35 +695,21 @@ form-label:last-child {
     align-items: center;
     justify-content: center;
     fill: transparent; 
+    vertical-align: middle;
 }
 
-/* .checkbox:checked + .checkbox-span {
-    background-color: #404bbf;
-    border:none;
-    fill: #F4F4FD;
 
-} */
-
-/* .checkbox-span:checked {
-    background-color:#404BBF;
-} */
-
-/* .checkbox-icon {
-    opacity: 0;
-} */
-
-/* .checkbox:checked .checkbox-span  {
+input[type="checkbox"]:checked + label > .checkbox-span {
     background-color: #404BBF;
-    color: #404BBF;
-    fill: #404BBF;
-    stroke: #404BBF;
-    opacity: 1;
-} */
+    border: none;
+    fill: #F4F4FD;
+    stroke: black;
+}
+
 
 .privacy-label {
     display: block;
     line-height: 1.16667;
-    /* align-self: center; */
     margin-bottom: 0;
     line-height: 1.17;
 }
@@ -769,7 +717,6 @@ form-label:last-child {
 .checkbox {
     width: 16px;
     height: 16px;
-    /* align-self: center; */
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
     margin-bottom: 16px;
@@ -778,5 +725,4 @@ form-label:last-child {
 
 .send-button {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-
 }
