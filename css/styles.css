@@ -524,12 +524,6 @@ margin-bottom: 16px;
 color: #2E2F42;
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
 .close-btn {
     position: absolute;
     top: 24px;
@@ -666,13 +660,17 @@ form-label:last-child {
     border-color: #4D5AE5;
 }
 
+.textarea-section {
+    margin-bottom: 16px;
+}
+
 
 .terms-and-conditions {
     display: flex;
     gap: 8px;
     align-items: center;
     justify-content: flex-start;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
 }
 
 .privacy-link {
