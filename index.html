@@ -440,7 +440,7 @@
             </label>
                 <textarea
                 class="comment-input"
-                name="comment"
+                name="user-comment"
                 placeholder="Text input"
                 rows="7"
                 id="user-comment"
@@ -449,8 +449,15 @@
             </div>
 
             <div class="terms-and-conditions">
-               <input class="checkbox" type="checkbox" name="checkbox">
-               <label class="form-label privacy-label">I accept the terms and conditions of the <span class="privacy-span"><a class="privacy-link">Privacy Policy</a></span></label>
+               <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" id="user-privacy" value="true">
+               <label for="user-privacy" class="form-label privacy-label">
+                <span class="checkbox-span">
+                    <svg class="checkbox-icon" width="10" height="8">
+                        <use href="./images/icons.svg#zclick"></use>
+                    </svg>
+                </span>
+                
+                I accept the terms and conditions of the <span class="privacy-span"><a class="privacy-link">Privacy Policy</a></span></label>
             </div>
 
             <button class="button send-button" type="submit">Send</button>
